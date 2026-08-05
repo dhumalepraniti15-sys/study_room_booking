@@ -1,0 +1,336 @@
+.manage-bookings-page{
+
+    padding:35px 45px;
+    width:100%;
+
+}
+
+
+.manage-bookings-header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:25px;
+
+}
+
+
+.manage-bookings-header h1{
+
+    font:800 30px Manrope,sans-serif;
+    margin:0;
+
+}
+
+
+.manage-bookings-header p{
+
+    color:var(--muted);
+    margin-top:6px;
+    font-size:14px;
+
+}
+
+
+
+/* Table Card */
+
+.booking-table-card{
+
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:18px;
+    padding:20px;
+    box-shadow:var(--shadow);
+    overflow-x:auto;
+
+}
+
+
+
+.booking-table{
+
+    width:100%;
+    border-collapse:collapse;
+    min-width:1000px;
+
+}
+
+
+
+.booking-table thead{
+
+    background:var(--soft);
+
+}
+
+
+
+.booking-table th{
+
+    text-align:left;
+    padding:14px;
+    font-size:13px;
+    color:var(--ink);
+    font-weight:700;
+    border-bottom:1px solid var(--line);
+
+}
+
+
+
+.booking-table td{
+
+    padding:15px 14px;
+    font-size:13px;
+    color:var(--muted);
+    border-bottom:1px solid var(--line);
+
+}
+
+
+
+.booking-table tbody tr{
+
+    transition:.2s;
+
+}
+
+
+.booking-table tbody tr:hover{
+
+    background:var(--soft);
+
+}
+
+
+
+/* Student */
+
+.student-info{
+
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+
+}
+
+
+
+.student-info strong{
+
+    color:var(--ink);
+    font-size:14px;
+
+}
+
+
+.student-info span{
+
+    font-size:12px;
+
+}
+
+
+
+/* Room */
+
+.room-name{
+
+    font-weight:700;
+    color:var(--ink);
+
+}
+
+
+.room-location{
+
+    font-size:12px;
+    color:var(--muted);
+
+}
+
+
+
+
+
+/* Status */
+
+.status{
+
+    display:inline-flex;
+    padding:6px 12px;
+    border-radius:50px;
+    font-size:12px;
+    font-weight:700;
+
+}
+
+
+
+.status.confirmed{
+
+    background:#e6f6e9;
+    color:#22743d;
+
+}
+
+
+
+.status.cancelled{
+
+    background:#ffe7e7;
+    color:#b33b3b;
+
+}
+
+
+
+
+
+/* Buttons */
+
+.booking-actions{
+
+    display:flex;
+    gap:8px;
+
+}
+
+
+
+.action-btn{
+
+    padding:8px 13px;
+    border-radius:8px;
+    font-size:12px;
+    font-weight:700;
+    transition:.2s;
+
+}
+
+
+
+.action-btn:hover{
+
+    transform:translateY(-2px);
+
+}
+
+
+
+
+.confirm-btn{
+
+    background:#e6f6e9;
+    color:#22743d;
+
+}
+
+
+
+.cancel-btn{
+
+    background:#ffe7e7;
+    color:#b33b3b;
+
+}
+
+
+
+.delete-btn{
+
+    background:var(--soft);
+    color:var(--rose);
+
+}
+
+
+
+
+
+/* Loading */
+
+
+.booking-loading{
+
+    min-height:300px;
+    display:grid;
+    place-items:center;
+    font-weight:700;
+    color:var(--rose);
+
+}
+
+
+
+
+/* Empty */
+
+
+.no-bookings{
+
+    background:var(--surface);
+    border:1px solid var(--line);
+    border-radius:18px;
+    padding:50px;
+    text-align:center;
+    box-shadow:var(--shadow);
+
+}
+
+
+
+.no-bookings h3{
+
+    margin:0;
+    font:700 22px Manrope;
+
+}
+
+
+
+.no-bookings p{
+
+    color:var(--muted);
+
+}
+
+
+
+
+
+
+
+/* Responsive */
+
+@media(max-width:850px){
+
+
+.manage-bookings-page{
+
+    padding:25px 20px;
+
+}
+
+
+
+.manage-bookings-header{
+
+    flex-direction:column;
+    align-items:flex-start;
+    gap:10px;
+
+}
+
+
+
+.manage-bookings-header h1{
+
+    font-size:25px;
+
+}
+
+
+}

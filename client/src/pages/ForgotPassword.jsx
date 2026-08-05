@@ -1,0 +1,3 @@
+import React from "react";
+import { Link } from 'react-router-dom'; import { useState } from 'react'; import AuthShell from './AuthShell';
+export default function ForgotPassword(){const [sent,setSent]=useState(false);return <AuthShell title="Reset your password." subtitle="Enter your email and we’ll send instructions to reset your password."><form onSubmit={e=>{e.preventDefault();setSent(true)}}>{sent?<div className="success">If an account exists for this email, password-reset instructions have been sent.</div>:<><label>Email<input required type="email" placeholder="you@example.com"/></label><button className="button button-primary wide">Send reset link</button></>}<p className="form-switch"><Link to="/login">Back to sign in</Link></p></form></AuthShell>}

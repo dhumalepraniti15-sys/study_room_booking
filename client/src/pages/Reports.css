@@ -1,0 +1,258 @@
+/* Reports Page */
+
+.reports-page {
+
+    padding: 60px;
+
+    min-height:100vh;
+
+    background:#FDF9F6;
+
+}
+
+
+/* Header */
+
+.reports-title h1 {
+
+    font-size:42px;
+
+    font-weight:800;
+
+    color:#0F172A;
+
+    margin-bottom:10px;
+
+}
+
+
+
+.reports-title p {
+
+    font-size:18px;
+
+    color:#64748B;
+
+}
+
+
+
+
+/* Cards Layout */
+
+.report-grid {
+
+    margin-top:35px;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+
+
+
+.report-box {
+
+    background:#FFFFFF;
+
+    padding:30px;
+
+    border-radius:22px;
+
+    border:1px solid #E8DDD6;
+
+    box-shadow:0px 15px 35px rgba(91,58,41,0.08);
+
+    transition:0.3s;
+
+}
+
+
+
+.report-box:hover {
+
+    transform:translateY(-5px);
+
+    box-shadow:0px 20px 45px rgba(91,58,41,0.15);
+
+}
+
+
+
+.report-box h4 {
+
+    color:#64748B;
+
+    font-size:16px;
+
+    font-weight:500;
+
+}
+
+
+
+.report-box h2 {
+
+    margin-top:15px;
+
+    color:#0F172A;
+
+    font-size:36px;
+
+    font-weight:800;
+
+}
+
+
+
+
+/* Status Section */
+
+
+.status-card {
+
+
+    margin-top:35px;
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:22px;
+
+    border:1px solid #E8DDD6;
+
+    box-shadow:0px 15px 35px rgba(91,58,41,0.08);
+
+
+}
+
+
+
+.status-card h2 {
+
+    color:#0F172A;
+
+    font-size:26px;
+
+    margin-bottom:25px;
+
+}
+
+
+
+
+
+.status-grid {
+
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:25px;
+
+
+}
+
+
+
+
+.status-item {
+
+
+    background:#FDF9F6;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    border-left:5px solid #5B3A29;
+
+
+}
+
+
+
+.status-item p {
+
+
+    color:#64748B;
+
+    font-size:15px;
+
+
+}
+
+
+
+.status-item h2 {
+
+
+    color:#0F172A;
+
+    font-size:32px;
+
+}
+
+
+
+
+/* Loader */
+
+.report-loader {
+
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:#5B3A29;
+
+    font-size:22px;
+
+    font-weight:700;
+
+
+}
+
+
+
+/* Responsive */
+
+@media(max-width:1200px){
+
+    .report-grid{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+@media(max-width:700px){
+
+    .reports-page{
+
+        padding:25px;
+
+    }
+
+
+    .report-grid,
+    .status-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

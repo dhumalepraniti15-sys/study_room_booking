@@ -1,0 +1,372 @@
+/* ==============================
+   Manage Users Page
+================================ */
+
+.manage-users {
+
+    min-height:100vh;
+
+    padding:45px 50px;
+
+    background:#fffaf7;
+
+    font-family:"Inter","Segoe UI",sans-serif;
+
+}
+
+
+/* ==============================
+   Header
+================================ */
+
+.users-header {
+
+    margin-bottom:45px;
+
+}
+
+
+.users-header h1 {
+
+    margin:0;
+
+    font-size:36px;
+
+    font-weight:700;
+
+    color:#111827;
+
+    letter-spacing:.5px;
+
+}
+
+
+
+.users-header p {
+
+    margin-top:10px;
+
+    color:#64748b;
+
+    font-size:16px;
+
+}
+
+
+
+
+
+/* ==============================
+   Main Table Card
+================================ */
+
+
+.users-card {
+
+    background:white;
+
+    border-radius:22px;
+
+    padding:25px;
+
+    border:1px solid #f1e5df;
+
+    box-shadow:
+
+    0 15px 40px rgba(0,0,0,0.06);
+
+}
+
+
+
+
+
+/* ==============================
+   Table
+================================ */
+
+
+table {
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+
+
+thead {
+
+    background:#fff0f3;
+
+}
+
+
+
+thead th {
+
+    padding:18px 16px;
+
+    text-align:left;
+
+    color:#111827;
+
+    font-size:14px;
+
+    font-weight:700;
+
+    letter-spacing:.5px;
+
+}
+
+
+
+
+
+tbody tr {
+
+    border-bottom:1px solid #f1e8e3;
+
+    transition:.3s;
+
+}
+
+
+
+tbody tr:hover {
+
+    background:#fffaf8;
+
+}
+
+
+
+
+td {
+
+    padding:20px 16px;
+
+    color:#64748b;
+
+    font-size:15px;
+
+}
+
+
+
+
+
+/* ==============================
+   User Profile
+================================ */
+
+
+.user-profile {
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+
+
+.avatar {
+
+    width:42px;
+
+    height:42px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    background:#fde68a;
+
+    color:#92400e;
+
+    font-weight:700;
+
+    font-size:17px;
+
+}
+
+
+
+.user-profile h4 {
+
+    margin:0;
+
+    font-size:15px;
+
+    color:#111827;
+
+}
+
+
+
+
+/* ==============================
+   Role Badge
+================================ */
+
+
+.role {
+
+    padding:7px 16px;
+
+    border-radius:20px;
+
+    font-size:13px;
+
+    font-weight:600;
+
+    text-transform:capitalize;
+
+}
+
+
+
+.role.admin {
+
+    background:#dcfce7;
+
+    color:#15803d;
+
+}
+
+
+
+.role.student {
+
+    background:#dbeafe;
+
+    color:#2563eb;
+
+}
+
+
+
+
+/* ==============================
+   Delete Button
+================================ */
+
+
+.delete-btn {
+
+
+    border:none;
+
+    padding:11px 22px;
+
+    border-radius:10px;
+
+    background:#ef4444;
+
+    color:white;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+.delete-btn:hover {
+
+
+    background:#dc2626;
+
+    transform:translateY(-2px);
+
+}
+
+
+
+
+
+/* ==============================
+   Empty Users
+================================ */
+
+
+.empty-users {
+
+    text-align:center;
+
+    padding:60px;
+
+}
+
+
+
+.empty-users h3 {
+
+    color:#111827;
+
+    font-size:22px;
+
+}
+
+
+.empty-users p {
+
+    color:#64748b;
+
+}
+
+
+
+
+
+/* ==============================
+ Responsive
+================================ */
+
+
+@media(max-width:900px){
+
+
+.manage-users{
+
+    padding:25px;
+
+}
+
+
+.users-header h1{
+
+    font-size:28px;
+
+}
+
+
+.users-card{
+
+    overflow-x:auto;
+
+}
+
+
+
+table{
+
+    min-width:850px;
+
+}
+
+
+}

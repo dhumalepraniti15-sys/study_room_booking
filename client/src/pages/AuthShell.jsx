@@ -1,0 +1,2 @@
+import React from "react";
+import Brand from '../components/Brand'; import { Link } from 'react-router-dom'; export default function AuthShell({title,subtitle,children}){return <main className="auth-shell"><section><Brand/><p className="eyebrow">WELCOME TO VIDYAVERSE</p><h1>{title}</h1><p>{subtitle}</p>{children}</section><aside><div><span>“</span><h2>A place for every idea to take shape.</h2><p>Book your next focused session in a space made for learning.</p></div></aside></main>}

@@ -1,0 +1,223 @@
+.edit-room-page {
+
+    min-height: 100vh;
+
+    background: #fff8fb;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 30px;
+
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+
+
+.edit-room-card {
+
+
+    width: 450px;
+
+    background: #ffffff;
+
+    padding: 35px;
+
+    border-radius: 20px;
+
+
+    border: 1px solid #f7d6e2;
+
+
+    box-shadow:
+
+    0 15px 40px rgba(231,84,128,0.15);
+
+
+}
+
+
+
+
+
+.edit-room-card h1 {
+
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+
+    color:#e75480;
+
+
+    font-size:28px;
+
+    font-weight:700;
+
+
+}
+
+
+
+
+
+.edit-room-card form {
+
+
+    display:flex;
+
+    flex-direction:column;
+
+
+}
+
+
+
+
+
+.edit-room-card input,
+.edit-room-card select {
+
+
+    width:100%;
+
+    height:48px;
+
+
+    padding:0 15px;
+
+
+    margin-bottom:18px;
+
+
+    border-radius:12px;
+
+
+    border:1px solid #e8d5df;
+
+
+    background:white;
+
+
+    color:#333;
+
+
+    font-size:14px;
+
+
+    outline:none;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+
+.edit-room-card input::placeholder {
+
+
+    color:#999;
+
+
+}
+
+
+
+
+
+.edit-room-card input:focus,
+.edit-room-card select:focus {
+
+
+    border-color:#e75480;
+
+
+    box-shadow:
+
+    0 0 0 3px rgba(231,84,128,0.12);
+
+
+}
+
+
+
+
+
+
+.edit-room-card button {
+
+
+    height:50px;
+
+
+    border:none;
+
+
+    border-radius:12px;
+
+
+    background:#e75480;
+
+
+    color:white;
+
+
+    font-size:16px;
+
+
+    font-weight:600;
+
+
+    cursor:pointer;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+.edit-room-card button:hover {
+
+
+    background:#d63d6a;
+
+
+    transform:translateY(-2px);
+
+
+}
+
+
+
+
+
+
+
+@media(max-width:600px){
+
+
+    .edit-room-card{
+
+
+        width:100%;
+
+        padding:25px;
+
+
+    }
+
+
+}
